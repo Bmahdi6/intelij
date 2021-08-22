@@ -1,0 +1,25 @@
+BetterIntelliJ - 通过此激活文件插件，可以激活许可有效期至2099年12月31日
+
+使用说明：
+﹂使用说明：启动软件->试用 (Evaluate for free) -> Evaluate，进入欢迎界面
+﹂插件(Plugins)->齿轮按钮->通过磁盘安装(Install Plugin From Disk)->浏览
+﹂选中本地激活文件插件BetterIntelliJ-x.x.jar，然后重启软件，使用激活码激活
+﹂界面帮助(Help)->管理许可证(Manage License)-> 新增 (Add New License)
+﹂选择激活码方式(Activation Code)，粘贴该激活文件插件的激活码，点击激活
+├—提示：如果输入激活码后点激活，提示"key is invaild"，说明你没有重启软件
+├—注意：激活插件建议存放固定位置，激活后不要删除或改动激活文件所在路径！
+
+其它问题：
+=======
+<!-打不开IDEA？
+可能之前安装过其它激活文件，需要检查下idea64.exe.vmoptions的配置对不对？
+建议去掉之前的 -javaagent 配置。然后，再根据上面的激活说明安装新激活文件~
+
+<!--激活插件，安装完毕，会自动在软件的配置文件生成以下参数：
+#以windows为例，配置参数：
+-javaagent:C:\Users\Public\.BetterIntelliJ\BetterIntelliJ-版本号.jar
+#以unix为例，配置参数：
+-javaagent:${HOME}//.BetterIntelliJ/BetterIntelliJ-版本号.jar
+
+<!--vmoptions找不到？
+打开IDEA，菜单:Help -> Edit Custom Properties，进入修改
